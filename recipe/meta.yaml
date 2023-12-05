@@ -1,5 +1,5 @@
 {% set name = "ossfs" %}
-{% set version = "2023.8.0" %}
+{% set version = "2023.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ossfs-{{ version }}.tar.gz
-  sha256: 91525c94d03d9a4e7d092f7a51b0086c973d730fbc4f1263b838f9f827d9f204
+  sha256: f99eb2d74717d22551b1f32ec9434587962627a816a64536dc47d68470536110
 
 build:
   number: 0
